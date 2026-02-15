@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Arduino / build artifacts
+*.bin
+*.hex
+
+# Env
+.env
+
+# Logs
+*.log
+
+# IDE
+.idea/
