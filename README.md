@@ -1,6 +1,7 @@
 # PEƎKABOO
 ![Project Logo](app-code/peekApp/src/main/resources/image/logo.png)
 <!-- Readme guide: https://www.makeareadme.com/ -->
+
 Peekaboo is a smart mirror system designed to support everyday routines by displaying contextual information directly in the bathroom environment.
 
 The system combines IoT hardware with a desktop application to present real-time data such as temperature, humidity, weather forecasts, reminders, and room occupancy. Motion detection automatically activates the mirror when someone enters the room, helping users stay informed without interacting with traditional devices.
@@ -24,15 +25,20 @@ Peekaboo was developed as a team project in the university course *Mini Project:
 
 Peekaboo consists of two main components:
 
-- **Smart Mirror (Wio Terminal)**  
-  Collects sensor data, displays weather and reminders, and reacts to motion.
+### Smart Mirror (Wio Terminal)
+- Collects sensor data  
+- Displays weather and reminders  
+- Reacts to motion  
 
-- **Desktop Application (PeekApp)**  
-  Allows users to view environmental data, manage reminders, configure location settings, and receive notifications.
+### Desktop Application (PeekApp)
+- Allows users to view environmental data  
+- Manage reminders  
+- Configure location settings  
+- Receive notifications  
 
 Communication between the mirror and the application happens via an MQTT broker, enabling real-time updates in both directions.
 
-Key features include:
+### Key Features
 
 - Live temperature and humidity monitoring  
 - Bathroom occupancy detection  
